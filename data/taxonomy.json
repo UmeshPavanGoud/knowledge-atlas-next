@@ -1,0 +1,236 @@
+{
+  "domains": [
+    {
+      "id": "mathematical-thinking",
+      "name": "Mathematical Thinking",
+      "eyebrow": "FOUNDATIONS",
+      "icon": "∑",
+      "description": "The language of patterns, structures, proofs, models and quantitative reasoning.",
+      "color": "violet",
+      "subjects": [
+        "mathematics"
+      ]
+    },
+    {
+      "id": "natural-sciences",
+      "name": "Natural Sciences",
+      "eyebrow": "UNDERSTAND NATURE",
+      "icon": "◌",
+      "description": "Understand matter, energy, physical laws and the systems behind the natural world.",
+      "color": "cyan",
+      "subjects": [
+        "physics",
+        "chemistry"
+      ]
+    },
+    {
+      "id": "computing-software",
+      "name": "Computing & Software",
+      "eyebrow": "BUILD WITH CODE",
+      "icon": "⌘",
+      "description": "From programming and algorithms to the systems, databases and applications we build.",
+      "color": "blue",
+      "subjects": [
+        "programming",
+        "computer-science",
+        "web-development",
+        "database-systems"
+      ]
+    },
+    {
+      "id": "ai-data",
+      "name": "AI & Data",
+      "eyebrow": "INTELLIGENT SYSTEMS",
+      "icon": "✳",
+      "description": "Machine learning, data science, intelligent applications and the mathematics behind them.",
+      "color": "magenta",
+      "subjects": [
+        "artificial-intelligence",
+        "data-science"
+      ]
+    },
+    {
+      "id": "engineering-systems",
+      "name": "Engineering Systems",
+      "eyebrow": "DESIGN THE PHYSICAL WORLD",
+      "icon": "⌬",
+      "description": "Electronics, robotics, semiconductors, aerospace, mobility, materials and manufacturing.",
+      "color": "orange",
+      "subjects": [
+        "electrical-engineering",
+        "semiconductors-and-vlsi",
+        "robotics-and-embedded-systems",
+        "aerospace-and-space-science",
+        "automotive-engineering",
+        "manufacturing-and-materials"
+      ]
+    },
+    {
+      "id": "secure-systems",
+      "name": "Security & Digital Infrastructure",
+      "eyebrow": "MAKE SYSTEMS RESILIENT",
+      "icon": "⛨",
+      "description": "Cybersecurity, operating environments, infrastructure and productive digital workflows.",
+      "color": "green",
+      "subjects": [
+        "cybersecurity",
+        "computing-tools-and-productivity"
+      ]
+    },
+    {
+      "id": "creative-computing",
+      "name": "Creative & Interactive Technology",
+      "eyebrow": "MAKE EXPERIENCES",
+      "icon": "✺",
+      "description": "Games, graphics, visual effects, animation and digital media made with technology.",
+      "color": "pink",
+      "subjects": [
+        "game-development",
+        "computer-graphics-and-vfx",
+        "digital-media-and-creative-tools"
+      ]
+    },
+    {
+      "id": "research-growth",
+      "name": "Research & Professional Growth",
+      "eyebrow": "GO FURTHER",
+      "icon": "↗",
+      "description": "Research practice, communication, portfolios and the skills to keep learning independently.",
+      "color": "gold",
+      "subjects": [
+        "career-and-professional-skills"
+      ]
+    }
+  ],
+  "subjects": [
+    {
+      "id": "aerospace-and-space-science",
+      "name": "Aerospace & Space Science",
+      "domain_id": "engineering-systems",
+      "description": "Flight science, aerodynamics and space exploration."
+    },
+    {
+      "id": "artificial-intelligence",
+      "name": "Artificial Intelligence & Machine Learning",
+      "domain_id": "ai-data",
+      "description": "Machine learning, deep learning, language models and AI systems."
+    },
+    {
+      "id": "automotive-engineering",
+      "name": "Automotive Engineering",
+      "domain_id": "engineering-systems",
+      "description": "Vehicle systems and automotive engineering principles."
+    },
+    {
+      "id": "career-and-professional-skills",
+      "name": "Career & Professional Skills",
+      "domain_id": "research-growth",
+      "description": "Career exploration, communication, portfolios and professional practice."
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "domain_id": "natural-sciences",
+      "description": "Matter, chemical systems and molecular science."
+    },
+    {
+      "id": "computer-graphics-and-vfx",
+      "name": "Computer Graphics & VFX",
+      "domain_id": "creative-computing",
+      "description": "3D modelling, rendering, animation and visual computing."
+    },
+    {
+      "id": "computer-science",
+      "name": "Computer Science",
+      "domain_id": "computing-software",
+      "description": "Algorithms, systems, architecture and theory of computation."
+    },
+    {
+      "id": "computing-tools-and-productivity",
+      "name": "Computing Tools & Productivity",
+      "domain_id": "secure-systems",
+      "description": "Operating environments, digital tools and practical workflows."
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Cybersecurity & Cryptography",
+      "domain_id": "secure-systems",
+      "description": "Defensive security, secure engineering and cryptographic foundations."
+    },
+    {
+      "id": "data-science",
+      "name": "Data Science",
+      "domain_id": "ai-data",
+      "description": "Statistics, analysis, visualisation and data workflows."
+    },
+    {
+      "id": "database-systems",
+      "name": "Database Systems",
+      "domain_id": "computing-software",
+      "description": "Data models, SQL, storage, transactions and database architecture."
+    },
+    {
+      "id": "digital-media-and-creative-tools",
+      "name": "Digital Media & Creative Tools",
+      "domain_id": "creative-computing",
+      "description": "Illustration, visual design, animation, audio and video."
+    },
+    {
+      "id": "electrical-engineering",
+      "name": "Electrical & Electronics Engineering",
+      "domain_id": "engineering-systems",
+      "description": "Circuits, electronics, PCB design and electrical systems."
+    },
+    {
+      "id": "game-development",
+      "name": "Game Development",
+      "domain_id": "creative-computing",
+      "description": "Game programming, engines and real-time interactive experiences."
+    },
+    {
+      "id": "manufacturing-and-materials",
+      "name": "Manufacturing & Materials",
+      "domain_id": "engineering-systems",
+      "description": "Materials, manufacturing processes and product engineering."
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "domain_id": "mathematical-thinking",
+      "description": "Pure, applied, discrete and computational mathematics."
+    },
+    {
+      "id": "physics",
+      "name": "Physics & Astronomy",
+      "domain_id": "natural-sciences",
+      "description": "Physical laws, models, mechanics, electromagnetism and astronomy."
+    },
+    {
+      "id": "programming",
+      "name": "Programming",
+      "domain_id": "computing-software",
+      "description": "Languages, computational thinking and software practice."
+    },
+    {
+      "id": "robotics-and-embedded-systems",
+      "name": "Robotics & Embedded Systems",
+      "domain_id": "engineering-systems",
+      "description": "Robotic systems, embedded computing and intelligent hardware."
+    },
+    {
+      "id": "semiconductors-and-vlsi",
+      "name": "Semiconductors & VLSI",
+      "domain_id": "engineering-systems",
+      "description": "Semiconductor processes, digital logic and integrated-circuit design."
+    },
+    {
+      "id": "web-development",
+      "name": "Web & Application Development",
+      "domain_id": "computing-software",
+      "description": "Web technologies, application development and modern interfaces."
+    }
+  ],
+  "aliases": {
+    "databases": "database-systems"
+  }
+}

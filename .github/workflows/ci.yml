@@ -1,0 +1,33 @@
+name: Atlas checks
+on:
+  push:
+  pull_request:
+jobs:
+  data-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate catalog and pathway references
+        run: python tools/validate_data.py
+      - name: Install API dependencies
+        run: pip install -r services/api/requirements.txt pytest httpx
+      - name: Compile API
+        run: python -m compileall -q services/api/app
+      - name: API smoke tests
+        run: PYTHONPATH=services/api pytest -q services/api/tests
+  frontend-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        working-directory: apps/web
+        run: npm install
+      - name: Build web app
+        working-directory: apps/web
+        run: npm run build

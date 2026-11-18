@@ -1,0 +1,413 @@
+[
+  {
+    "id": "ai-engineering",
+    "title": "AI Engineering",
+    "description": "A high-level learning path from ML foundations to building, evaluating and maintaining AI-powered applications.",
+    "stages": [
+      {
+        "title": "Establish ML foundations",
+        "resource_ids": [
+          "ai-stanford-cs229",
+          "ai-fastai"
+        ],
+        "description": "Understand supervised learning, optimization and model training."
+      },
+      {
+        "title": "Learn modern model tooling",
+        "resource_ids": [
+          "ai-hf-learn",
+          "ai-hf-transformers-course"
+        ],
+        "description": "Study transformer concepts, model APIs and data workflows."
+      },
+      {
+        "title": "Explore language-model engineering",
+        "resource_ids": [
+          "ai-llm-bootcamp",
+          "ai-cohere-llm-university"
+        ],
+        "description": "Connect language-model fundamentals to application patterns."
+      },
+      {
+        "title": "Read advanced material",
+        "resource_ids": [
+          "ai-cs25",
+          "ai-pytorch-tutorials"
+        ],
+        "description": "Follow research seminars and framework documentation as your projects become more demanding."
+      }
+    ],
+    "domain_ids": [
+      "ai-data"
+    ],
+    "resource_count": 8,
+    "stage_count": 4,
+    "source_file": "ai-engineering.md"
+  },
+  {
+    "id": "computer-science-foundations",
+    "title": "Computer Science Foundations",
+    "description": "Move from introductory programming to algorithms, architecture and software correctness.",
+    "stages": [
+      {
+        "title": "Start with a broad introduction",
+        "resource_ids": [
+          "cs50x"
+        ],
+        "description": "Learn core programming ideas and computational problem solving."
+      },
+      {
+        "title": "Understand structure and abstraction",
+        "resource_ids": [
+          "math-discrete-open-intro",
+          "software-foundations"
+        ],
+        "description": "Explore discrete reasoning, formal methods and the mathematical basis of software."
+      },
+      {
+        "title": "See the machine underneath",
+        "resource_ids": [
+          "nand2tetris",
+          "computer-science-bottom-up"
+        ],
+        "description": "Study how logic, architecture, operating systems and software layers connect."
+      },
+      {
+        "title": "Practise and extend",
+        "resource_ids": [
+          "exercism",
+          "pro-git"
+        ],
+        "description": "Strengthen implementation skills and collaborative development habits."
+      }
+    ],
+    "domain_ids": [
+      "computing-software",
+      "mathematical-thinking"
+    ],
+    "resource_count": 7,
+    "stage_count": 4,
+    "source_file": "computer-science-foundations.md"
+  },
+  {
+    "id": "electronics-engineering",
+    "title": "Electronics Foundations",
+    "description": "A theory-first route through circuits, digital concepts and the documentation used in electronic design.",
+    "stages": [
+      {
+        "title": "Learn circuit fundamentals",
+        "resource_ids": [
+          "electronics-allaboutcircuits"
+        ],
+        "description": "Study voltage, current, components and circuit models."
+      },
+      {
+        "title": "Explore digital and hardware concepts",
+        "resource_ids": [
+          "electronics-kicad-docs"
+        ],
+        "description": "Read the documentation to understand electronic design workflows and terminology."
+      },
+      {
+        "title": "Explore chip-design concepts",
+        "resource_ids": [
+          "vlsi-skywater-pdk",
+          "vlsi-openlane2",
+          "vlsi-openroad"
+        ],
+        "description": "Use technical documentation to understand the stages and vocabulary of digital chip implementation."
+      }
+    ],
+    "domain_ids": [
+      "engineering-systems"
+    ],
+    "resource_count": 5,
+    "stage_count": 3,
+    "source_file": "electronics-engineering.md"
+  },
+  {
+    "id": "game-development",
+    "title": "Game Development Foundations",
+    "description": "A flexible route from programming basics to a small playable project. Choose one engine first; you do not need to learn every engine at once.",
+    "stages": [
+      {
+        "title": "Build the programming foundation",
+        "resource_ids": [
+          "cs50x",
+          "yt-game-dani-krossing",
+          "yt-game-clear-code"
+        ],
+        "description": "Review variables, functions, control flow, data structures and debugging. For browser games, start with JavaScript; for Python-based 2D work, explore Python and Pygame; for engine-based development, learn the language used by your chosen engine."
+      },
+      {
+        "title": "Choose one engine",
+        "resource_ids": [
+          "game-godot-docs",
+          "yt-game-gdquest",
+          "game-unity-learn",
+          "yt-game-brackeys",
+          "game-unreal-graphics",
+          "yt-game-zenva"
+        ],
+        "description": "Pick an engine based on the kind of project you want to make. Read its official documentation alongside a guided tutorial."
+      },
+      {
+        "title": "Build one small complete game",
+        "resource_ids": [
+          "yt-game-heartbeast",
+          "yt-game-dafluffypotato",
+          "yt-game-mix-and-jam",
+          "game-cs50-games"
+        ],
+        "description": "Start with a tiny scope: one mechanic, one level, a clear start and end, and a simple interface. Use a tutorial as a guide, then modify the result so that you understand the code and design choices."
+      },
+      {
+        "title": "Explore graphics and game mathematics",
+        "resource_ids": [
+          "yt-game-freya-holmer",
+          "yt-game-the-art-of-code",
+          "yt-game-the-cherno"
+        ],
+        "description": "After completing a simple game, explore vectors, transforms, interpolation, collision concepts and rendering."
+      },
+      {
+        "title": "Learn from the wider game-development community",
+        "resource_ids": [
+          "yt-game-gdc",
+          "yt-game-jonas-tyroller",
+          "yt-game-codeparade"
+        ],
+        "description": "Use conference talks and independent development diaries to understand design trade-offs, production planning and how teams build games."
+      }
+    ],
+    "domain_ids": [
+      "creative-computing",
+      "computing-software",
+      "mathematical-thinking"
+    ],
+    "resource_count": 19,
+    "stage_count": 5,
+    "source_file": "game-development.md"
+  },
+  {
+    "id": "independent-research",
+    "title": "Independent Research Skills",
+    "description": "Build the habits needed to explore a technical question, understand evidence and keep a reproducible record.",
+    "stages": [
+      {
+        "title": "Form a strong foundation",
+        "resource_ids": [
+          "math-3blue1brown",
+          "physics-feynman"
+        ],
+        "description": "Strengthen conceptual understanding in the subject you want to investigate."
+      },
+      {
+        "title": "Read technical literature",
+        "resource_ids": [
+          "math-ams-open-notes",
+          "db-readings-in-databases"
+        ],
+        "description": "Move from textbooks to course notes and selected research reading."
+      },
+      {
+        "title": "Use computational tools",
+        "resource_ids": [
+          "ai-pytorch-tutorials",
+          "math-oeis"
+        ],
+        "description": "Explore how software, data and computation support investigation."
+      },
+      {
+        "title": "Document what you learn",
+        "resource_ids": [
+          "pro-git",
+          "software-foundations"
+        ],
+        "description": "Track ideas, versions, assumptions and evidence carefully."
+      }
+    ],
+    "domain_ids": [
+      "computing-software",
+      "mathematical-thinking",
+      "ai-data"
+    ],
+    "resource_count": 8,
+    "stage_count": 4,
+    "source_file": "independent-research.md"
+  },
+  {
+    "id": "machine-learning",
+    "title": "Machine Learning Foundations",
+    "description": "A prerequisite-aware route into machine learning, from mathematics and statistics to model implementation.",
+    "stages": [
+      {
+        "title": "Prepare the mathematics",
+        "resource_ids": [
+          "math-mml-book",
+          "data-openintro-statistics"
+        ],
+        "description": "Review linear algebra, calculus, probability and statistics."
+      },
+      {
+        "title": "Learn core ML methods",
+        "resource_ids": [
+          "ai-statistical-learning",
+          "ai-stanford-cs229"
+        ],
+        "description": "Use an introductory text, then progress to a rigorous university course."
+      },
+      {
+        "title": "Build practical skills",
+        "resource_ids": [
+          "ai-fastai",
+          "ai-pytorch-tutorials"
+        ],
+        "description": "Implement and experiment with deep-learning models."
+      },
+      {
+        "title": "Explore modern model families",
+        "resource_ids": [
+          "ai-hf-learn",
+          "ai-hf-transformers-course"
+        ],
+        "description": "Study transformer-based approaches and open model tooling."
+      }
+    ],
+    "domain_ids": [
+      "ai-data",
+      "mathematical-thinking"
+    ],
+    "resource_count": 8,
+    "stage_count": 4,
+    "source_file": "machine-learning.md"
+  },
+  {
+    "id": "mathematics-foundations",
+    "title": "Mathematics Foundations",
+    "description": "A flexible sequence from mathematical language and algebra toward calculus, linear algebra and proof.",
+    "stages": [
+      {
+        "title": "Start with core fluency",
+        "resource_ids": [
+          "math-khan-academy",
+          "math-betterexplained"
+        ],
+        "description": "Build comfort with algebraic manipulation, functions and the meaning of mathematical notation."
+      },
+      {
+        "title": "Develop visual intuition",
+        "resource_ids": [
+          "math-3blue1brown",
+          "math-mathigon"
+        ],
+        "description": "Use visual explanations and interactive models to form mental pictures of abstract ideas."
+      },
+      {
+        "title": "Study university mathematics",
+        "resource_ids": [
+          "math-mit-1806",
+          "math-pauls-notes",
+          "math-ubc-clp"
+        ],
+        "description": "Choose a focused course or textbook sequence for linear algebra and calculus."
+      },
+      {
+        "title": "Learn mathematical proof",
+        "resource_ids": [
+          "math-book-of-proof",
+          "math-discrete-open-intro"
+        ],
+        "description": "Practise definitions, statements, proof structure and discrete reasoning."
+      }
+    ],
+    "domain_ids": [
+      "mathematical-thinking"
+    ],
+    "resource_count": 9,
+    "stage_count": 4,
+    "source_file": "mathematics-foundations.md"
+  },
+  {
+    "id": "physics-foundations",
+    "title": "Physics Foundations",
+    "description": "Pair clear conceptual reading with university lectures and visual experiments.",
+    "stages": [
+      {
+        "title": "Build the core picture",
+        "resource_ids": [
+          "physics-openstax",
+          "physics-phet"
+        ],
+        "description": "Use an introductory text and simulations to explore physical relationships."
+      },
+      {
+        "title": "Study mechanics",
+        "resource_ids": [
+          "physics-mit-mechanics"
+        ],
+        "description": "Follow a structured mechanics sequence and solve its exercises."
+      },
+      {
+        "title": "Connect concepts across topics",
+        "resource_ids": [
+          "physics-feynman",
+          "physics-mechanical-universe"
+        ],
+        "description": "Use deeper lecture material to develop a broader understanding."
+      }
+    ],
+    "domain_ids": [
+      "natural-sciences",
+      "mathematical-thinking"
+    ],
+    "resource_count": 5,
+    "stage_count": 3,
+    "source_file": "physics-foundations.md"
+  },
+  {
+    "id": "programming-from-zero",
+    "title": "Programming from Zero",
+    "description": "A beginner-friendly route into programming, computational thinking and independent practice.",
+    "stages": [
+      {
+        "title": "Choose a first language",
+        "resource_ids": [
+          "cs50x",
+          "python-tutorial"
+        ],
+        "description": "Begin with introductory programming and core problem-solving habits."
+      },
+      {
+        "title": "Practise consistently",
+        "resource_ids": [
+          "exercism",
+          "freecodecamp-learn"
+        ],
+        "description": "Use short exercises and structured tracks to reinforce concepts."
+      },
+      {
+        "title": "Learn developer workflows",
+        "resource_ids": [
+          "pro-git",
+          "mdn-learn-web"
+        ],
+        "description": "Understand version control and explore browser technologies when ready."
+      },
+      {
+        "title": "Build deeper systems understanding",
+        "resource_ids": [
+          "nand2tetris",
+          "computer-science-bottom-up"
+        ],
+        "description": "Connect programs with the computer systems that execute them."
+      }
+    ],
+    "domain_ids": [
+      "computing-software"
+    ],
+    "resource_count": 8,
+    "stage_count": 4,
+    "source_file": "programming-from-zero.md"
+  }
+]

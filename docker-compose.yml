@@ -1,0 +1,23 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: services/api/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - atlas-data:/app/.local
+    restart: unless-stopped
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    ports:
+      - "5173:5173"
+    environment:
+      - ATLAS_API_URL=http://api:8000
+    depends_on:
+      - api
+    restart: unless-stopped
+volumes:
+  atlas-data:

@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Atlas resource",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "url",
+    "subjects",
+    "domain_ids",
+    "difficulty",
+    "level",
+    "kind",
+    "access",
+    "access_key",
+    "verification_status",
+    "verification_level",
+    "provenance"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "subjects": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "domain_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "difficulty": {
+      "type": "string"
+    },
+    "level": {
+      "enum": [
+        "beginner",
+        "intermediate",
+        "advanced",
+        "all-levels",
+        "unknown"
+      ]
+    },
+    "kind": {
+      "enum": [
+        "book",
+        "course",
+        "video",
+        "documentation",
+        "interactive",
+        "website",
+        "project",
+        "database",
+        "community",
+        "other"
+      ]
+    },
+    "access": {
+      "type": "string"
+    },
+    "access_key": {
+      "enum": [
+        "free",
+        "paid",
+        "mixed",
+        "unknown"
+      ]
+    },
+    "verification_status": {
+      "type": "string"
+    },
+    "verification_level": {
+      "enum": [
+        "upstream-only",
+        "pending",
+        "page-check-recorded",
+        "source-reviewed",
+        "source-identified"
+      ]
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}
